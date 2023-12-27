@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "isJ2MzRoEOG8rangJN70mWiYD+8hOvyjSxS0q/FyhtF5JmDnB5XxWLPuHnr/8xHrZbQv52k+WLrq+l3F6HHj9Q==",
+  "success": true,
+  "projectFilePath": "/home/muthuri_dev/Applantus/algolia-search/algolia-search.csproj",
+  "expectedPackageFiles": [
+    "/home/muthuri_dev/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
