@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "isJ2MzRoEOG8rangJN70mWiYD+8hOvyjSxS0q/FyhtF5JmDnB5XxWLPuHnr/8xHrZbQv52k+WLrq+l3F6HHj9Q==",
+  "dgSpecHash": "Mo6MnrlsduBpvyzEZXSE6hyZTfDDbKC8gQX/asm6v5dXZNB8LcVVyUB8T9FTZ9Tng4Z370QesSJoNL4Ccplb+g==",
   "success": true,
   "projectFilePath": "/home/muthuri_dev/Applantus/algolia-search/algolia-search.csproj",
   "expectedPackageFiles": [
+    "/home/muthuri_dev/.nuget/packages/algolia.search/6.16.0/algolia.search.6.16.0.nupkg.sha512",
+    "/home/muthuri_dev/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/muthuri_dev/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
   ],
   "logs": []

@@ -1,9 +1,26 @@
 ﻿@page "/"
+@inject algolia_search.Services.AlgoliaServices AlgoliaService
+@using Algolia.Search.Models.Search
 
-<PageTitle>Index</PageTitle>
+<h1>Search Results</h1>
 
-<h1>Hello, world!</h1>
+@if (response == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    foreach (var hit in response.Hits)
+    {
+        <p>@hit</p>
+    }
+}
 
-Welcome to your new app.
+@code {
+    private SearchResponse<dynamic> response;
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    protected override async Task OnInitializedAsync()
+    {
+        response = await AlgoliaService.Search("query");
+    }
+}

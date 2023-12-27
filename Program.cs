@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using algolia_search.Data;
+using Algolia.Search.Clients;
+using Algolia.Search.Models.Search;
+using algolia_search.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<AlgoliaServices>();
 
 var app = builder.Build();
 
